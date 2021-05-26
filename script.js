@@ -1,5 +1,5 @@
 var picture = document.getElementById('carousel');
-var allPhotos = ['images/pic_1.jpg', 'images/pic_2.jpg', 'images/pic_3.jpg'];
+var allPhotos = ['images/pic_1.JPG', 'images/pic_2.jpg', 'images/pic_3.jpg'];
 var index = 0;
 
 document.getElementById('button1').addEventListener('click', buttonRight);
