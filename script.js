@@ -5,7 +5,7 @@ var index = 0;
 document.getElementById('button1').addEventListener('click', buttonRight);
 document.getElementById('button2').addEventListener('click', buttonLeft);
 
-window.setInterval(rotatePhoto, 6000);  // Rotates every 6 seconds
+window.setInterval(rotatePhoto, 5000);  // Rotates every 6 seconds
 
 function rotatePhoto() {
     function updateIndex() {
