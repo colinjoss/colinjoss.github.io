@@ -7,7 +7,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
 
     // Sends a request to httpbin
     var req = new XMLHttpRequest();
-    req.open('POST', 'http://httpbin.org/post', true);
+    req.open('POST', 'https://httpbin.org/post', true);
     req.setRequestHeader('Content-Type', 'application/json');
     
     // Listener that waits for the request to complete
